@@ -20,8 +20,8 @@ this.onswipedown = null;
 this.inGesture = false;
 
 // Private members
-this._originalX = 0
-this._originalY = 0
+this._originalX = 0;
+this._originalY = 0;
 var _this = this;
 // Makes the element clickable on iPhone 
 this.element.onclick = function() {void(0)};
