@@ -1,4 +1,4 @@
 SwipePinch-JS
 =============
 
-Swipe and Pinch using JS
+Swipe/pinch gesture using JS for mobile environments.
