@@ -1,0 +1,23 @@
+<!--
+Touch-based browser technique to swipe and pinch using JS
+
+By Samet Kohen
+-->
+
+
+<!DOCTYPE htm>
+<head>
+<meta charset=UTF-8" /> 
+<title>Swipe Gesture Detection</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0;
+maximum-scale=1.0; user-scalable=0;">
+<script type="text/javascript" src="swipe.js"></script> <script type="text/javascript">
+window.onload = function() {
+var swipev = new MobiSwipe("vertical"); swipev.direction = swipev.VERTICAL; swipev.onswipedown = function() { alert('down'); }; swipev.onswipeup = function() { alert('up'); };
+var swipeh = new MobiSwipe("horizontal"); swipeh.direction = swipeh.HORIZONTAL; swipeh.onswiperight = function() { alert('right'); }; swipeh.onswipeleft = function() { alert('left'); };
+} </script> </head> <body>
+<div style="width: 100%; height: 150px; background-color: blue" id="vertical"> Vertical Swipe
+</div>
+<div style="width: 100%; height: 150px; background-color: red" id="horizontal"> Horizontal Swipe
+</div>
+</body> </html>
